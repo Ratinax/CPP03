@@ -6,7 +6,7 @@
 /*   By: tibernot <tibernot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/02 16:10:32 by ratinax           #+#    #+#             */
-/*   Updated: 2023/03/03 14:38:39 by tibernot         ###   ########.fr       */
+/*   Updated: 2023/03/03 14:39:41 by tibernot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@
 
 class	ClapTrap {
 
-	private :
+	protected :
 		std::string	_name;
 		long		_hitPoints;
 		long		_energyPoints;

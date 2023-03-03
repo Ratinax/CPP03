@@ -6,7 +6,7 @@
 #    By: tibernot <tibernot@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/09 13:17:41 by alboudje          #+#    #+#              #
-#    Updated: 2023/03/03 14:12:34 by tibernot         ###   ########.fr        #
+#    Updated: 2023/03/03 14:12:24 by tibernot         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ BOLDMAGENTA	= \033[1m\033[35m
 BOLDCYAN	= \033[1m\033[36m
 BOLDWHITE	= \033[1m\033[37m
 
-NAME 			= 	ClapTrap
+NAME 			= 	ScavTrap
 CC 				= 	c++
 
 SRC_FOLDER		=	src/
@@ -37,9 +37,11 @@ INC_FOLDER		=	inc/
 OBJS_FOLDER		=	objs/
 
 SRC_FILES		= ClapTrap.cpp \
+				ScavTrap.cpp \
 				main.cpp
 
-INCLUDES_FILES	= ClapTrap.hpp
+INCLUDES_FILES	= ClapTrap.hpp \
+				ScavTrap.hpp
 
 SRC 			= 	$(addprefix $(SRC_FOLDER), $(SRC_FILES))
 INCLUDES 		= 	$(addprefix $(INC_FOLDER), $(INCLUDES_FILES))
